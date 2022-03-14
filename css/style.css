@@ -111,7 +111,15 @@ input{
     width: 360px;
     height: 266px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #FDFDFD;
     border-radius: 30px;
     box-shadow: 4px 4px 5px 0 rgba(168, 171, 170, 0.5), inset 0 -8px 16px 0 #4b5250;
+}
+.main__card p{
+    font-family: "Comic Sans MS", serif;
+    text-align: center;
+    font-size: 24px;
 }
