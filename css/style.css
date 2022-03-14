@@ -1,0 +1,82 @@
+@font-face {
+    src: local('fonts/comici.ttf');
+    font-family: "Comic Sans MS";
+}
+/*------------Header start------------------*/
+.header{
+    height: 60px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+/*------------Logotype start------------------*/
+.logotype__image{
+    height: 54px;
+    width: 54px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*------------Search Start------------------*/
+.search {
+    width: 604px;
+}
+
+input{
+    width: 600px;
+    height: 54px;
+    border: 2px solid #E5E5E5;
+    background: #fff;
+    border-radius:25px;
+}
+
+/*------------Sign In Start------------------*/
+.button__sign__in__card {
+    width: 146px;
+    height: 50px;
+    border-radius: 20px;
+    background: #02C697;
+    text-align: center;
+    box-shadow: 4px 4px 5px 0 rgba(95, 208, 180, 0.5), inset 0 -8px 16px 0 #156954;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__title {
+    font-size: 18px;
+    color: #FDFDFD;
+    font-family: "Comic Sans MS", serif;
+}
+
+.button__sign__in__card:hover{
+    background: #02C697;
+    color: #418c7a;
+    box-shadow: 0 35px 68px 0 rgb(38, 86, 74), inset 0 -8px 16px 0 #59b49d;
+}
+
+/*------------Menu Start------------------*/
+.menu{
+    height: 40px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: #02C697;*/
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 0 105px 0 0;
+    font-family: "Comic Sans MS", serif;
+    font-size: 20px;
+    color: #111111;
+}
