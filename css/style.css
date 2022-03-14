@@ -27,7 +27,7 @@
 
 input{
     width: 600px;
-    height: 54px;
+    height: 50px;
     border: 2px solid #E5E5E5;
     background: #fff;
     border-radius:25px;
@@ -79,4 +79,39 @@ input{
     font-family: "Comic Sans MS", serif;
     font-size: 20px;
     color: #111111;
+}
+
+.banner {
+    width: auto;
+    height: 460px;
+    margin: 24px 0;
+    background: url("../images/banner.png") no-repeat;
+    border-radius: 10px;
+}
+
+/*------------Popular With Web Start------------------*/
+.popular__with__web {
+    margin: 70px 0;
+}
+
+.cards__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.cards__inner .item {
+    /*width: 360px;*/
+    /*height: 266px;*/
+    /*display: flex;*/
+}
+
+.item {
+    width: 360px;
+    height: 266px;
+    display: flex;
+    background: #FDFDFD;
+    border-radius: 30px;
+    box-shadow: 4px 4px 5px 0 rgba(168, 171, 170, 0.5), inset 0 -8px 16px 0 #4b5250;
 }
